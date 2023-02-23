@@ -1,0 +1,24 @@
+.footer{
+  background: #F0F3F3;
+  .uk-navbar-item{
+    min-height: 42px;
+    @include media-breakpoint-up('m'){
+      min-height: 80px;
+    }
+  }
+  .uk-navbar-right{
+    flex: 1;
+    @include media-breakpoint-up('m'){
+      flex: initial;
+    }
+  }
+  &__txt{
+    font-family: "Mulish",sans-serif;
+    font-weight: 600;
+    color: #{$secondary-color};
+    font-size: 12px;
+    @include media-breakpoint-up('m'){
+      font-size: 14px;
+    }
+  }
+}

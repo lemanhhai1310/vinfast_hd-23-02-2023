@@ -1,0 +1,10 @@
+.commons{
+  &__section{
+    padding-bottom: 60px;
+    padding-top: 46px;
+    @include media-breakpoint-up('m'){
+      //padding-bottom: 176px;
+      padding-top: 47px;
+    }
+  }
+}
